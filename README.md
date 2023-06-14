@@ -7,10 +7,14 @@
 - create .env environment 
 - to install all requrments : `pip install -r requirements.txt`
 
-**run the application** by typing in the teminal `python web_scraper/scraper.py` you must be in the root of the repo
+**run the application**
+
+by typing in the teminal `python web_scraper/scraper.py` you must be in the root of the repo
 
 
 **How to use this module** 
+
+
 to use scraper.py you have 2 function:
  1. get_citations_needed_count
  get_citations_needed_count(url), takes a URL as input and retrieves the webpage content using the requests library. It then uses the BeautifulSoup library to parse the HTML content of the webpage. The function searches for all occurrences of the text "citation needed" wrapped in a <span> tag and counts the number of such occurrences. Finally, it returns the count of citations needed.
