@@ -8,6 +8,8 @@
 - to install all requrments : `pip install -r requirements.txt`
 
 **run the application** by typing in the teminal `python web_scraper/scraper.py` you must be in the root of the repo
+
+
 **How to use this module** 
 to use scraper.py you have 2 function:
  1. get_citations_needed_count
