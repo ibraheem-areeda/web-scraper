@@ -23,6 +23,8 @@ to use scraper.py you have 2 function:
   get_citations_needed_report(url), performs a similar process as the first function. It retrieves the webpage content and parses it using BeautifulSoup. It searches for all occurrences of the text "citation needed" wrapped in a <span> tag. For each occurrence, it appends the parent elements' text (four levels up from the <span> tag) to a string. The function then returns the accumulated string, which represents a report of all the sections or sentences that require citations in the webpage. The report is formatted with line breaks between each section or sentence.
   
 ### Tests
+When it comes to running tests, pytest is the preferred tool. It provides a convenient and efficient way to execute test cases. As for noteworthy tests, there aren't any specific ones to mention at the moment. However, if there were any tests that were not completed or skipped, it's worth noting that I have successfully completed all the tests without any pending or skipped ones.
+
  
  
 
